@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+repositories {
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    compile gradleApi()
+    compile 'com.jcraft:jsch:0.1.53'
+    compile 'com.google.guava:guava:18.0'
+    compile 'com.github.mindstorms-cop.lejos-ev3-maven-packages:ev3classes:0.9.0-beta.1'
+}
+
+version = '0.1.0-SNAPSHOT'

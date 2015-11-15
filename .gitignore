@@ -1,0 +1,25 @@
+
+# Output directories
+build/
+out/
+target/
+
+# Mac OS X files
+.DS_Store
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse files
+.settings
+.classpath
+.project
+
+# Gradle
+.gradle/
+
+# Gradle wrapper for Windows
+gradlew.bat
