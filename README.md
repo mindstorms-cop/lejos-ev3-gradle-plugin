@@ -23,7 +23,7 @@ buildscript {
         maven { url "https://jitpack.io" }
     }
     dependencies {
-        classpath 'com.github.mindstorms-cop:lejos-ev3-gradle-plugin:0.1.0'
+        classpath 'com.github.mindstorms-cop:lejos-ev3-gradle-plugin:0.1.2'
     }
 }
 
